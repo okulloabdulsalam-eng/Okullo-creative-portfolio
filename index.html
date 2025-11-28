@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#8b6f47">
+    <meta property="og:image" content="monitor.jpg">
+    <meta name="twitter:image" content="monitor.jpg">
+    <title>OKULLO'S DESIGNS</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+</head>
+<body>
+    <!-- Special Offer Banner -->
+    <div class="offer-banner">
+        <div class="container">
+            <p>🎉 <strong>Limited Time Offer:</strong> Free consultation for your first project! Get started today → <a href="#contact" class="offer-link">Contact Now</a></p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="monitor.jpg" alt="Web Design" class="nav-brand-image">
+                <span>OKULLO'S DESIGNS</span>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a role="menuitem" href="#home">Home</a></li>
+                <li role="none"><a role="menuitem" href="#about">About Okullo</a></li>
+                <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+                <li role="none"><a role="menuitem" href="#portfolio">Portfolio</a></li>
+                <li role="none"><a role="menuitem" href="#faq">FAQ</a></li>
+                <li role="none"><a role="menuitem" href="#blog">Blog</a></li>
+                <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+            </ul>
+            <button class="dark-mode-toggle" id="darkModeToggle" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-title" class="hero-title">Hi, I'm a Web Designer</h1>
+                <p class="hero-subtitle">I create beautiful and easy-to-use websites that people love</p>
+                <div class="hero-features">
+                    <span class="hero-badge">✓ Free Consultation</span>
+                    <span class="hero-badge">✓ Fast Delivery</span>
+                    <span class="hero-badge">✓ 100% Satisfaction</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                    <a href="#portfolio" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" aria-labelledby="about-title">
+        <div class="container">
+            <h2 id="about-title" class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-content-wrapper">
+                    <div class="about-text">
+                        <p>I'm Okullo Abdulsalam a web designer who loves making websites that look great and work well. I believe that good design should be simple and easy to understand.</p>
+                        <p>My goal is to create websites that not only look beautiful but also help people find what they need quickly and easily. I work with businesses and individuals to bring their ideas to life on the web.</p>
+                        <p>That's why when I'm not designing, I'm always learning new things and staying up to date with the latest web design trends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" aria-labelledby="skills-title">
+        <div class="container">
+            <h2 id="skills-title" class="section-title">What I Can Do For You</h2>
+            <div class="website-types">
+                <p>(All types of websites (Commercial, Personal, Educational, Blog sites etc))</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>I design websites that look modern and professional. Every design is made to match your brand and goals.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">💻</div>
+                    <h3>Responsive Design</h3>
+                    <p>Your website will work perfectly on phones, tablets, and computers. Everyone gets a great experience.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">⚡</div>
+                    <h3>Fast & Clean</h3>
+                    <p>I make websites that load quickly and are easy to use. Simple navigation means happy visitors.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">🤝</div>
+                    <h3>Easy to Work With</h3>
+                    <p>I listen to your ideas and keep you updated every step of the way. Your vision is my priority.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-badges" aria-labelledby="trust-title">
+        <div class="container">
+            <h2 id="trust-title" class="sr-only">Why choose me</h2>
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <div class="badge-icon" aria-hidden="true">🆓</div>
+                    <h3>Free Consultation</h3>
+                    <p>Discuss your project at no cost</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon" aria-hidden="true">⚡</div>
+                    <h3>Fast Turnaround</h3>
+                    <p>1-2 weeks for most projects</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon" aria-hidden="true">✅</div>
+                    <h3>Satisfaction Guaranteed</h3>
+                    <p>100% satisfaction or money back</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon" aria-hidden="true">📞</div>
+                    <h3>24/7 Support</h3>
+                    <p>Always here when you need help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics" aria-labelledby="stats-title">
+        <div class="container">
+            <h2 id="stats-title" class="sr-only">Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50" aria-live="polite">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="45" aria-live="polite">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1" aria-live="polite">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100" aria-live="polite">0</div>
+                    <div class="stat-label">% Satisfaction Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies" aria-labelledby="tech-title">
+        <div class="container">
+            <h2 id="tech-title" class="section-title">Technologies I Use</h2>
+            <div class="tech-grid" role="list">
+                <div class="tech-item" role="listitem">HTML5</div>
+                <div class="tech-item" role="listitem">CSS3</div>
+                <div class="tech-item" role="listitem">JavaScript</div>
+                <div class="tech-item" role="listitem">React</div>
+                <div class="tech-item" role="listitem">WordPress</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="process" aria-labelledby="process-title">
+        <div class="container">
+            <h2 id="process-title" class="section-title">How It Works</h2>
+            <p class="section-subtitle">Simple process, amazing results</p>
+            <div class="process-grid">
+                <div class="process-item">
+                    <div class="process-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We discuss your vision, goals, and requirements. Free consultation to understand your needs.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">2</div>
+                    <h3>Design & Development</h3>
+                    <p>I create a beautiful, responsive design and bring it to life with clean, modern code.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">3</div>
+                    <h3>Review & Revisions</h3>
+                    <p>You review the website and request changes. I make revisions until you're 100% happy.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">4</div>
+                    <h3>Launch & Support</h3>
+                    <p>Your website goes live! I provide ongoing support and help with any future updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+            <h2 id="testimonials-title" class="section-title">What Clients Say</h2>
+            <p class="section-subtitle">Don't just take my word for it</p>
+            <div class="testimonials-slider" aria-live="polite">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p>"Okullo created an amazing website for my café! The design is beautiful, and it works perfectly on all devices. My customers love it, and I've seen a significant increase in online orders. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah M.</strong>
+                            <span>Café Aroma Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Working with Okullo was a pleasure. He understood my vision and delivered exactly what I wanted. The website is fast, professional, and has helped grow my business. Great communication throughout the project!"</p>
+                        <div class="testimonial-author">
+                            <strong>James K.</strong>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"I needed a personal portfolio website, and Okullo delivered beyond my expectations. The design is modern, the code is clean, and the site loads incredibly fast. I couldn't be happier with the result!"</p>
+                        <div class="testimonial-author">
+                            <strong>Maria L.</strong>
+                            <span>Freelance Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls (left/right + dots) -->
+                <div class="testimonial-controls" role="tablist" aria-label="Testimonial navigation">
+                    <button class="testimonial-btn prev" aria-label="Previous testimonial">‹</button>
+                    <div class="testimonial-dots" role="tablist" aria-label="Testimonial dots">
+                        <button class="dot active" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+                        <button class="dot" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+                        <button class="dot" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+                    </div>
+                    <button class="testimonial-btn next" aria-label="Next testimonial">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-title">
+        <div class="container">
+            <h2 id="portfolio-title" class="section-title">My Work</h2>
+            <p class="section-subtitle">Here are some examples of websites I've designed</p>
+
+            <div class="portfolio-grid">
+                <!-- portfolio item as link -->
+                <a class="portfolio-item" data-category="business" href="https://okulloabdulsalam-eng.github.io/Cafe-Aroma-Coffee/" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-image">Café Aroma</div>
+                    <h3>Café Aroma Coffee</h3>
+                    <p>A cozy café website featuring menus, online ordering, and a welcoming brand story.</p>
+                </a>
+
+                <!-- empty slot (kept for layout) -->
+                <div class="portfolio-item empty-slot" aria-hidden="true">
+                    <!-- intentionally left empty to preserve grid layout -->
+                </div>
+
+                <!-- another portfolio link (fixed: not nested) -->
+                <a class="portfolio-item" data-category="business" href="https://okulloabdulsalam-eng.github.io/Okullo-and-Sons-Furniture/" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-image">Okullo &amp; Sons furniturez</div>
+                    <h3>Okullo &amp; Sons furniturez</h3>
+                    <p>A 1st class Website of a global furniture company that deals in all types of furniture.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq" aria-labelledby="faq-title">
+        <div class="container">
+            <h2 id="faq-title" class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <h3>How long does it take to build a website?</h3>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" hidden>
+                        <p>Typically, a basic website takes 1-2 weeks, while more complex sites can take 3-4 weeks. The timeline depends on the project scope and your feedback speed.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <h3>Do you provide website hosting?</h3>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" hidden>
+                        <p>I can help you set up hosting, but hosting is usually a separate monthly cost. I'll guide you through the best hosting options for your needs.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <h3>Will my website work on mobile devices?</h3>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" hidden>
+                        <p>Yes! All websites I create are fully responsive and work perfectly on phones, tablets, and computers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <h3>Can I update the website myself?</h3>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" hidden>
+                        <p>Yes, I can set up a content management system (CMS) so you can easily update content, add pages, and manage your website without coding knowledge.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <h3>What if I need changes after the website is done?</h3>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" hidden>
+                        <p>I offer support packages and can make updates anytime. Small changes are usually quick and affordable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog" aria-labelledby="blog-title">
+        <div class="container">
+            <h2 id="blog-title" class="section-title">Latest Blog Posts</h2>
+            <p class="section-subtitle">Tips, tricks, and insights about web design</p>
+            <div class="blog-grid">
+                <article class="blog-item" aria-labelledby="blog1-title">
+                    <div class="blog-image" aria-hidden="true">Blog 1</div>
+                    <div class="blog-content">
+                        <span class="blog-date">January 15, 2025</span>
+                        <h3 id="blog1-title">Dark Mode, AI, and Minimalist Design: Top Trends Shaping 2025</h3>
+                        <p class="blog-preview">As we navigate through 2025, web design continues to evolve with exciting new trends. This year, we're seeing a strong emphasis on dark mode interfaces, minimalist designs, and AI-powered user experiences...</p>
+                        <div class="blog-full-content" style="display: none;">
+                            <p>Dark mode has become essential, with studies showing it reduces eye strain and extends battery life on OLED screens. Minimalist design principles are making a comeback, focusing on clean layouts with plenty of white space and clear typography.</p>
+                            <p>AI integration is revolutionizing how users interact with websites, from personalized content recommendations to intelligent chatbots. Other notable trends include micro-interactions that provide delightful user feedback, bold typography that makes statements, and sustainable web design practices that prioritize performance and accessibility.</p>
+                            <p>Glassmorphism effects, 3D elements, and immersive storytelling through video backgrounds are also gaining popularity. Understanding these trends helps designers create modern, user-friendly websites that stand out in today's competitive digital landscape.</p>
+                            <p class="blog-references"><strong>References:</strong> Smashing Magazine, Webflow Blog, Awwwards, Designmodo</p>
+                        </div>
+                        <a href="#" class="blog-link read-more-btn" data-blog="1">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-item" aria-labelledby="blog2-title">
+                    <div class="blog-image" aria-hidden="true">Blog 2</div>
+                    <div class="blog-content">
+                        <span class="blog-date">January 10, 2025</span>
+                        <h3 id="blog2-title">Color Psychology in Web Design: Choosing Colors That Convert</h3>
+                        <p class="blog-preview">Color psychology plays a crucial role in web design, influencing how visitors perceive and interact with your website. Research shows that color can increase brand recognition by up to 80%...</p>
+                        <div class="blog-full-content" style="display: none;">
+                            <p>When choosing colors, consider your brand identity and target audience. Blue conveys trust and professionalism, making it ideal for corporate and financial websites. Green represents growth and health, perfect for environmental or wellness brands. Red creates urgency and excitement, often used for call-to-action buttons.</p>
+                            <p>The 60-30-10 rule is a proven design principle: use your primary color for 60% of the design, a secondary color for 30%, and an accent color for 10%. Ensure sufficient contrast ratios (WCAG guidelines recommend at least 4.5:1 for text) to maintain accessibility.</p>
+                            <p>Tools like Adobe Color and Coolors can help create harmonious color palettes. Remember, colors have cultural meanings too—what works in one region may not resonate in another. Test your color choices with real users to ensure they evoke the desired emotions and support your website's goals.</p>
+                            <p class="blog-references"><strong>References:</strong> Color Psychology Research, WCAG Guidelines, Adobe Color Theory, HubSpot Design Blog</p>
+                        </div>
+                        <a href="#" class="blog-link read-more-btn" data-blog="2">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-item" aria-labelledby="blog3-title">
+                    <div class="blog-image" aria-hidden="true">Blog 3</div>
+                    <div class="blog-content">
+                        <span class="blog-date">January 5, 2025</span>
+                        <h3 id="blog3-title">Why 60% of Web Traffic Demands Mobile-First Design</h3>
+                        <p class="blog-preview">Mobile-first design is no longer optional—it's essential. Statistics show that over 60% of web traffic comes from mobile devices, and Google's mobile-first indexing means your mobile site directly impacts search rankings...</p>
+                        <div class="blog-full-content" style="display: none;">
+                            <p>Mobile-first design means starting with the smallest screen and progressively enhancing for larger devices, rather than scaling down from desktop. This approach forces designers to prioritize essential content and features, resulting in faster load times and better user experiences.</p>
+                            <p>Key principles include touch-friendly buttons (minimum 44x44 pixels), readable fonts (at least 16px), simplified navigation, and optimized images. Performance is critical: 53% of mobile users abandon sites that take longer than 3 seconds to load.</p>
+                            <p>Responsive design ensures your website adapts seamlessly across all devices, maintaining functionality and visual appeal. Testing on actual devices is crucial, as emulators don't always reflect real-world performance. By adopting a mobile-first mindset, you create websites that are accessible, fast, and user-friendly for the majority of your audience, ultimately improving conversion rates and user satisfaction.</p>
+                            <p class="blog-references"><strong>References:</strong> Google Mobile-First Indexing, StatCounter Global Stats, Nielsen Norman Group, Web.dev Performance Guidelines</p>
+                        </div>
+                        <a href="#" class="blog-link read-more-btn" data-blog="3">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="container">
+            <h2 id="contact-title" class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's talk about it!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:okulloabdulsalam@gmail.com" class="email-link">okulloabdulsalam@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">📱</div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+256787749111">+256787749111</a></p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <label for="name" class="sr-only">Your Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <label for="email" class="sr-only">Your Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <label for="message" class="sr-only">Your Message</label>
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OKULLO'S DESIGNS</h3>
+                    <p>Creating beautiful and functional websites that help businesses grow online.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#skills">Web Design</a></li>
+                        <li><a href="#skills">Responsive Design</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Okullo Designs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- WhatsApp Chat Widget -->
+    <a href="https://wa.me/256703268522" class="whatsapp-widget" target="_blank" title="Chat on WhatsApp" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20.52 3.48A11.79 11.79 0 0 0 12.01 0C5.38 0 .01 5.37.01 12c0 2.12.56 4.14 1.63 5.94L0 24l6.2-1.6A11.88 11.88 0 0 0 12 24h.01c6.63 0 12-5.37 12-12 0-3.19-1.24-6.19-3.49-8.52zM12 22.01c-1.93 0-3.83-.52-5.47-1.51l-.39-.23-3.68.95.98-3.59-.25-.37A9.97 9.97 0 0 1 2.01 12c0-5.52 4.49-10.01 10.01-10.01A9.94 9.94 0 0 1 22.01 12c0 5.52-4.49 10.01-10.01 10.01zm5.53-7.48c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.67.15-.2.3-.76.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.48-.88-.79-1.48-1.77-1.65-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.53.08-.81.38-.28.3-1.07 1.05-1.07 2.56 0 1.5 1.1 2.95 1.25 3.16.15.2 2.17 3.32 5.26 4.66.74.32 1.31.51 1.76.65.74.23 1.41.2 1.94.12.59-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/>
+        </svg>
+    </a>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
