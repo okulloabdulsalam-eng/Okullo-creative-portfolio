@@ -44,6 +44,7 @@ This portfolio was created to:
 - 📱 Fully responsive on all devices  
 
 
+---
 
 ## 📬 Contact Me
 
