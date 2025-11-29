@@ -6,7 +6,7 @@ The website is fully responsive, modern, and built using HTML5, CSS3, and JavaSc
 ---
 
 ## 🚀 Live Website
-👉 **https://okulloabdulsalama.github.io**  
+👉 https://okulloabdulsalam-eng.github.io/Okullo-creative-portfolio/
 
 ---
 
