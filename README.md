@@ -72,6 +72,11 @@ If you want a professional website, feel free to contact me.
 If you like this project, consider giving the repository a **star ⭐** on GitHub!
 
 ---
+## 📬 Contact
+
+For web-design projects, collaborations, or hiring opportunities:
+*Email:* [your-email@example.com](mailto:okulloabdulsalam.com)
+*GitHub:* [https://github.com/yourusername](https://github.com/yourusername)
 
 ## 📁 Folder Structure
 
